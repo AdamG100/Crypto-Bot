@@ -1,0 +1,26 @@
+{
+  "name": "WhoIS",
+  "version": "1.0.0",
+  "description": "A simple Discord WHOIS Bot",
+  "main": "src/bot.js",
+  "repository": "https://github.com/michaelrosstarr/whois-bot.git",
+  "author": "michaelrosstarr <michaelrosstarr>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "domain-ping": "^0.2.1",
+    "dotenv": "^8.2.0",
+    "get-json": "^1.0.1",
+    "nodemon": "^2.0.6",
+    "whois": "^2.13.3",
+    "whois-api": "^1.0.2",
+    "whois-json": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node .",
+    "lint": "eslint src"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0"
+  }
+}
